@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Sofadi+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --azul-bebe: #55dde0ff;
+    --azul: #33658aff;
+    --cinza: #2f4858ff;
+    --amarelo: #f6ae2dff;
+    --laranja: #f26419ff;
+    --preto: #000000;
+    --fonte-titulo: "Permanent Marker", cursive;
+    --fonte-texto: "Sofadi One", system-ui;
+}
+
+body{
+    background-color: var(--cinza);
+    font-family: var(--fonte-texto);
+    color: var(--preto);
+    height: 100vh;
+}
+
+header{
+    background-color: var(--azul-bebe);
+    text-align: center;
+}
+
+h1{
+    font-family: var(--fonte-titulo);
+    font-size: 3rem;
+    color: var(--cinza);
+    padding: 1.5rem 0;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+nav a{
+    text-decoration: none;
+    color: var(--preto);
+    font-size: 2rem;
+    margin: 0 2rem 1rem 0;
+}
