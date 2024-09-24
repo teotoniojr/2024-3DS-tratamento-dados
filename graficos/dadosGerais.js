@@ -1,0 +1,1 @@
+const url = 'https://raw.githubusercontent.com/teotoniojr/2024-3DS-API-ex/refs/heads/main/top_10_jogos.json'
