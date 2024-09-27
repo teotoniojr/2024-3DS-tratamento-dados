@@ -64,6 +64,12 @@ nav a:hover{
     border: var(--preto) double 15px;
 }
 
+span{
+    font-family: var(--fonte-titulo);
+    color: var(--cinza);
+    font-size: 30px;
+}
+
 footer{
     display: flex;
     align-items: center;

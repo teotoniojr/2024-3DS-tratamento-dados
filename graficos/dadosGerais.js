@@ -5,12 +5,12 @@ async function vizualizarInformacoes() {
     const dados = await res.json()
 
     const jogoMaisVendido = dados[0].título
-    const numeroDeVendas = dados[0].vendas
+    const numeroDeVendas = (dados[0].vendas)/1e6
     const plataformas = dados[0].plataformas
 
     const paragrafo = document.createElement('p')
     paragrafo.classList.add('caixa-grafico__texto')
-    paragrafo.innerHTML = `Em busca de descobrir os jogos mais vendidos em 2023, foi feita uma série de pesquisas em diferentes fontes. Com o auxilio da inteligência artificial do google, foi possivel estimar que o jogo mais vendido foi ${jogoMaisVendido} com um total de vendas de aproximadamente ${numeroDeVendas} nas plataformas ${plataformas}`
+    paragrafo.innerHTML = `Em busca de descobrir os jogos mais vendidos em 2023, foi feita uma série de pesquisas em diferentes fontes. Com o auxilio da inteligência artificial do google, foi possivel estimar que o jogo mais vendido foi <span>${jogoMaisVendido}</span> com um total de vendas de aproximadamente <span>${numeroDeVendas} milhões</span> nas plataformas <span>${plataformas}</span>`
 
     const caixa = document.getElementById('caixa-grafico')
     caixa.appendChild(paragrafo)
