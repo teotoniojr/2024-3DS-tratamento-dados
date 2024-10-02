@@ -7,6 +7,7 @@
 
 :root{
     --azul-bebe: #55dde0ff;
+    --branco: #FFFFFF;  
     --azul: #33658aff;
     --cinza: #2f4858ff;
     --amarelo: #f6ae2dff;
@@ -64,6 +65,7 @@ nav a:hover{
     font-size: 1.5rem;
     padding: 2em 0 2.5em 0;
 }
+
 
 span{
     font-family: var(--fonte-titulo);
