@@ -59,7 +59,16 @@ nav a:hover{
     padding: 2rem;
     border-radius: 15px;
     border: var(--preto) double 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.caixa-grafico__titulo{
+    padding-top: 2rem;
+    font-size: 2.5rem;
+
+}   
 
 .caixa-grafico__texto{
     font-size: 1.5rem;
@@ -69,7 +78,7 @@ nav a:hover{
 
 span{
     font-family: var(--fonte-titulo);
-    color: var(--cinza);
+    color: var(--branco);
     font-size: 30px;
 }
 
