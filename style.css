@@ -1,95 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Sofadi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-}
 
 :root{
-    --azul-bebe: #55dde0ff;
-    --branco: #FFFFFF;  
-    --azul: #33658aff;
-    --cinza: #2f4858ff;
-    --amarelo: #f6ae2dff;
-    --laranja: #f26419ff;
-    --preto: #000000;
-    --fonte-titulo: "Permanent Marker", cursive;
-    --fonte-texto: "Sofadi One", system-ui;
+    --fonte-principal: "Playfair Display", serif;
+    --fonte-secundaria: "Bebas Neue", sans-serif;
+    --verde: #1a535cff;
+    --azul: #4ecdc4ff;
+    --creme: #f7fff7ff;
+    --vermelho: #ff6b6bff;
+    --amarelo: #ffe66dff;
 }
 
 body{
-    background-color: var(--cinza);
-    font-family: var(--fonte-texto);
-    color: var(--preto);
-    height: 100vh;
+    font-family: var(--fonte-principal);
+    background-color: var(--azul);
 }
 
-header{
-    background-color: var(--azul-bebe);
-    text-align: center;
-}
-
-h1{
-    font-family: var(--fonte-titulo);
-    font-size: 3rem;
-    color: var(--cinza);
-    padding: 1.5rem 0;
-}
-nav{
-    display: flex;
-    justify-content: center;
-    font-weight: 400;
-}
-nav a{
-    text-decoration: none;
-    color: var(--preto);
-    font-size: 2rem;
-    margin: 0 2rem 1rem 0;
-}
-nav a:hover{
-    text-decoration: underline;
-    color: var(--laranja);
-    transform: scale(0.9);
-    transition: transform 0.3s;
-}
-
-.caixa-grafico{
-    margin: 5rem;
-    background-color: var(--laranja);
-    padding: 2rem;
-    border-radius: 15px;
-    border: var(--preto) double 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.caixa-grafico__titulo{
-    padding-top: 2rem;
-    font-size: 2.5rem;
-
-}   
-
-.caixa-grafico__texto{
-    font-size: 1.5rem;
-    padding: 2em 0 2.5em 0;
-}
-
-
-span{
-    font-family: var(--fonte-titulo);
-    color: var(--branco);
-    font-size: 30px;
-}
-
-footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--azul-bebe);
-    color: var(--cinza);
-    width: 100%;
-    height: 3rem;
-    margin-top: 2rem;
-    font-size: 1.8rem;
+h1,h3{
+    font-family: var(--fonte-secundaria);
 }
